@@ -42,6 +42,7 @@
 				43A7E8661F5183AA0091465C /* Products */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 		43A7E8661F5183AA0091465C /* Products */ = {
 			isa = PBXGroup;
