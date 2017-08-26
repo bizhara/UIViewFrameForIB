@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		43A7E8541F51804E0091465C /* UIViewFrameForIB.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A7E8521F51804E0091465C /* UIViewFrameForIB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A7E85B1F5181160091465C /* UIViewFrameForIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A7E85A1F5181160091465C /* UIViewFrameForIB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		43A7E84F1F51804E0091465C /* UIViewFrameForIB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIViewFrameForIB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A7E8521F51804E0091465C /* UIViewFrameForIB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewFrameForIB.h; sourceTree = "<group>"; };
 		43A7E8531F51804E0091465C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A7E85A1F5181160091465C /* UIViewFrameForIB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewFrameForIB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			children = (
 				43A7E8521F51804E0091465C /* UIViewFrameForIB.h */,
 				43A7E8531F51804E0091465C /* Info.plist */,
+				43A7E85A1F5181160091465C /* UIViewFrameForIB.swift */,
 			);
 			path = UIViewFrameForIB;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					43A7E84E1F51804E0091465C = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A7E85B1F5181160091465C /* UIViewFrameForIB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +247,7 @@
 		43A7E8581F51804E0091465C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -253,6 +259,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hara.UIViewFrameForIB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -260,6 +267,7 @@
 		43A7E8591F51804E0091465C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
