@@ -4,4 +4,7 @@
    <FileRef
       location = "group:UIViewFrameForIB/UIViewFrameForIB.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:UIViewFrameForIBTester/UIViewFrameForIBTester.xcodeproj">
+   </FileRef>
 </Workspace>
